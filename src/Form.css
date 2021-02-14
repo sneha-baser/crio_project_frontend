@@ -1,0 +1,32 @@
+.container{
+    border:2px solid black;
+    padding:20px 20px;
+}
+.buttonIn{
+    position: relative;
+}
+input{
+   
+    height: 30px;
+    border-radius: 5px;
+    
+}
+button{
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right :2px;
+    z-index: 2;
+    border:none;
+    top:2px;
+    height: 35px;
+    color: white;
+    background-color: #1e90ff;
+
+
+}
+.card{
+    margin-top:10px;
+    margin-bottom:10px;
+    /* border : 2px black; */
+}
