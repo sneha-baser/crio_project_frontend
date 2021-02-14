@@ -31,7 +31,7 @@ function Form() {
   }
   //fuction called to get all memes
   const getMeme = ()=>{  
-   axios.get('http://localhost:3001/memes').then((res)=>{
+   axios.get(' https://xmemebysnehabaser.herokuapp.com/memes').then((res)=>{
      setMeme(res);
 
    }).catch((err)=>{
@@ -48,7 +48,7 @@ function Form() {
       caption : inps.memecaption  
     }
     //Post method
-    axios.post('http://localhost:3001/memes',memeobject)
+    axios.post(' https://xmemebysnehabaser.herokuapp.com/memes',memeobject)
     .then((res)=>{
       console.log(res.data);
     }).catch(err => { if(err.request){ console.log(err.request) } if(err.response){ console.log(err.response) } });

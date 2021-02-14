@@ -27,7 +27,7 @@ const Edit = (props) =>{
           caption : editinp.editcaption  
         }
        
-          axios.patch(`http://localhost:3001/memes/${props.id}`,memeobj)
+          axios.patch(`https://xmemebysnehabaser.herokuapp.com/memes/${props.id}`,memeobj)
         .then((res)=>{
           // console.log(memeobj.url);
           // console.log(memeobj.caption);
